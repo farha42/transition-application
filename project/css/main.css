@@ -1,0 +1,55 @@
+.container{
+    margin:auto ;
+overflow: hidden;
+width:80%;
+background-color: lightblue;
+}
+.container h1{
+    text-align: center;
+    color:red;
+    padding:20px;
+}
+.header .product{
+    position: relative;
+}
+span{
+    background-color: red;
+    width: 80px;
+    height: 30px;
+    position:absolute;
+    padding-top:5px;
+    top:10px;
+    text-align: center;
+    color:white;
+    right:5px;
+    margin:10px;
+    transition: all 1s transform ;
+}
+.container .header {
+    width:23%;
+    float:left;
+    margin-left: 10px;
+    box-sizing: content-box;
+}
+.container .header .product img{
+    width:100%;
+}
+.header .description {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    background-color: #09c;
+    transition: all 1s  transform;
+
+}
+.clr{
+    clear:both;
+}
+.container .header .product:hover span{
+    transform: rotate(360deg)  scale(2);
+}
+.description:hover{
+    transform: rotate(330deg)
+}
+
